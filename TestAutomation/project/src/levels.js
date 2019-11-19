@@ -1,7 +1,8 @@
 'use strict';
 
 var levels = {
-  URGENT: 2
+//  URGENT: 2 #Original Code 
+  URGENT: 3 //Fault Injection #2
   , WARN: 1
   , INFO: 0
   , LOW: -1

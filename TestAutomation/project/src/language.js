@@ -9,7 +9,8 @@ function init() {
   }
 
   language.speechCode = 'en-US';
-  language.lang = 'en';
+//  language.lang = 'en'; #Original Code
+  language.lang = 'thisShouldNotWork'; //Fault Injection #1
 
   language.languages = [
     { code: 'bg', language: 'Български', speechCode: 'bg-BG' }

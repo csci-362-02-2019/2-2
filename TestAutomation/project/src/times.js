@@ -13,8 +13,9 @@ var factories = {
   }
   , hours: function hours(value) {
     return {
-      mins: value * 60, secs: value * 60 * 60, msecs: value * 60 * 60 * 1000
-    };
+ //     mins: value * 60, secs: value * 60 * 60, msecs: value * 60 * 60 * 1000 #Original Code 
+      mins: value + 60, secs: value + 60 * 60, msecs: value + 60 * 60 * 1000 // Fault Injection #3
+   };
   }
   , mins: function mins(value) {
     return {
