@@ -1,6 +1,5 @@
 Test ID:level_test_2
-Requirements being tested:integer values must map to their correct alert level keywords
+Requirements being tested:keyword alert URGENT in levels must map to correct integer value 2
 Component being tested:levels.js
-Expected output:'Urgent'
-call:toDisplay
-param:2
+Expected output:2
+call:URGENT

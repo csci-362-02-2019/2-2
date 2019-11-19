@@ -1,6 +1,6 @@
 Test ID:level_test_3
-Requirements being tested:values not in the valid alert level range should return keyword 'Unknown'
+Requirements being tested:integer values must map to their correct alert level keywords
 Component being tested:levels.js
-Expected output:'Unknown'
+Expected output:'Urgent'
 call:toDisplay
-param:3
+param:2

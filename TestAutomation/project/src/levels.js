@@ -1,7 +1,7 @@
 'use strict';
 
 var levels = {
-//  URGENT: 2 #Original Code 
+//  URGENT: 2 #Original Code
   URGENT: 3 //Fault Injection #2
   , WARN: 1
   , INFO: 0
@@ -28,7 +28,7 @@ levels.isAlarm = function isAlarm(level) {
 
 levels.toDisplay = function toDisplay(level) {
   var key = level !== undefined && level.toString();
-  return key && levels.translate(level2Display[key]) || levels.translate('Unknown');
+  return key && levels.translate(level2Display[key]) || levels.translate('None');
 };
 
 levels.toLowerCase = function toLowerCase(level) {
